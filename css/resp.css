@@ -26,8 +26,12 @@
         height: 60vh;
     }
 
-    #hero h2 {
-        font-size: 3rem;
+     #hero h2 {
+        font-size: 2rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
     }
 
     #search-bar {
