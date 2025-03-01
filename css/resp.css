@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    /* #nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background: var(--card-bg);
+        padding: 10px;
+        border-radius: 5px;
+    } */
+
+    nav {
+        display: none;
+    }
+
+    #nav-links.show {
+        display: flex;
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+
+    #hero {
+        height: 60vh;
+    }
+
+    #hero h2 {
+        font-size: 3rem;
+    }
+
+    #search-bar {
+        width: 70%;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

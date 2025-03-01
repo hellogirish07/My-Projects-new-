@@ -1,0 +1,23 @@
+
+/* Hero Section */
+#hero {
+    padding: 50px;
+    background: linear-gradient(45deg, #ff416c, #007bff);
+    color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 5px;
+}
+
+#hero p {
+    font-size: 2rem;
+}

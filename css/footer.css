@@ -1,0 +1,22 @@
+
+/* Footer */
+footer {
+    padding: 15px;
+    background: var(--card-bg);
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer i {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #007bff;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        color: #00c6ff;
+    }
+}

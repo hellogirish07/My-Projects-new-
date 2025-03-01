@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girish's Projects</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nevbar.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/resp.css">
+</head>
+
+<body>
+
+    <!-- 🌟 Navbar -->
+    <header>
+        <h1>GK's Projects</h1>
+        <button id="menu-btn">☰</button> <!-- Menu Button for Small Screens -->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="btn" id="theme-toggle"><i class="fa-solid fa-brush"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <div class="sidebar-heading">
+            <h1>GK's Projects </h1>
+            <button id="close-btn">✖</button>
+        </div>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- <li><button class="btn" id="theme-toggle-sidebar">Change Theme</button></li> -->
+        </ul>
+        <div class="social-links">
+            <a href="https://github.com/yourgithub"><i class="fa-brands fa-github-alt"></i> Github</a>
+            <a href=""><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://linkedin.com/in/yourlinkedin"><i class="fa-brands fa-linkedin-in"></i> Linked In</a>
+            <button class="btn" id="theme-toggle-sidebar"><i class="fa-solid fa-brush"></i> Change Theme</button>
+        </div>
+    </div>
+
+
+    <!-- 🎯 Hero Section -->
+    <section id="hero">
+        <h2>GK’s Genius Creations – Where Bugs Turn into Features!</h2>
+        <p>Check out my projects! Some even work on the first try!</p>
+        <a href="#projects" class="btn">View Projects</a>
+    </section>
+
+    <!-- 🔍 Search & Filter -->
+
+
+    <!-- 🛠️ Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <section id="search-filter">
+            <input type="text" id="search-bar" placeholder="Find that one project I totally finished!">
+        </section>
+        <div class="project-cards">
+            <div class="grid">
+                <div class="card" data-name="Tic Tac Toe">
+                    <img src="/Photos/tic-tac-toe.png" alt="Tic Tac Toe">
+                    <h3>Tic Tac Toe</h3>
+                    <p>A fun tic-tac-toe game built with JavaScript.</p>
+                    <a href="https://girish18-tic-tac-toe.netlify.app/" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="BeatBoxify - A Music App">
+                    <img src="/Photos/beatboxify.png" alt="BeatBoxify">
+                    <h3>BeatBoxify - A Music App</h3>
+                    <p>BeatBoxify, a simple music player application. BeatBoxify allows users to play audio files from
+                        their local device in a playlist format.</p>
+                    <a href="https://girish18-beatboxify.netlify.app/" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="Background remover App">
+                    <img src="/Photos/BG-remover.png" alt="BG remower">
+                    <h3>BG remover App</h3>
+                    <p>A free online image background remower app</p>
+                    <a href="https://girish18-bg-remover.netlify.app/" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="Birthday Reminder App">
+                    <img src="Photos/birthday-reminder.png" alt="Birthday Reminder">
+                    <h3>Birthday Reminder App</h3>
+                    <p>CA simple app which stores you importent birthdays</p>
+                    <a href="https://girish18-birthday-reminder-app.netlify.app/" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="BiteBlitz : Food Delivery App">
+                    <img src="/Photos/BiteBlitz.png" alt="BiteBlitz">
+                    <h3>Online food delivery App </h3>
+                    <p>Online food delivery app where you can order food from your favourite restaurant.</p>
+                    <a href="https://girish18-biteblitz.netlify.app/" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="Coding World">
+                    <img src="/Photos/Coding-World.png" alt="Coding World">
+                    <h3>Coding World</h3>
+                    <p>A simple education landing page</p>
+                    <a href="https://girish18-coding-world.netlify.app/" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="Dice Cricket Game">
+                    <img src="/Photos/DC.png" alt="Dice Cricket Game">
+                    <h3>Dice Cricket Game</h3>
+                    <p>A Cricket game in which you play with Dice :)</p>
+                    <a href="https://girish18-dice-cricket.netlify.app/" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="Digi X Shop">
+                    <img src="Photos/DxS.png" alt="Digi X Shop">
+                    <h3>Digi X Shop</h3>
+                    <p>A simple e-commerce landing page</p>
+                    <a href="https://girish18-dxs.netlify.app/" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="Happy Birthday">
+                    <img src="/Photos/happy-birthday.png" alt="Happy Birthday">
+                    <h3>happy Birthday</h3>
+                    <p>A simple birthday wish card</p>
+                    <a href="https://girish18-happy-birthday.netlify.app/" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="Note App">
+                    <img src="/Photos/IdeaVault.png" alt="Note App">
+                    <h3>IdeaVault : A note app</h3>
+                    <p>A simple note app where you can store your ideas</p>
+                    <a href="https://girish18-ideavault.netlify.app/noteapp" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="Redmi 12 : landing page">
+                    <img src="/Photos/redmi-12.png" alt="Redmi 12">
+                    <h3>Redmi 12 5G</h3>
+                    <p>Simple Landing page for Redmi 12 5G Phone.</p>
+                    <a href="https://girish-18-redmi-12-5g.netlify.app/#hero" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="Note App">
+                    <img src="Photos/notes.png" alt="Note App">
+                    <h3>Note App</h3>
+                    <p>A simple note app where you can store your ideas</p>
+                    <a href="https://girish18-note-app.netlify.app/" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="Love Calculator">
+                    <img src="/Photos/love-cal-c.png" alt="Love Calculator">
+                    <h3>Love Calculator</h3>
+                    <p>Calculate your love percentage with your partner</p>
+                    <a href="https://girish18-love-calc.netlify.app/" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="Tower of Hanoi">
+                    <img src="/Photos/Toh.png" alt="Tower of Hanoi">
+                    <h3>Tower of Hanoi</h3>
+                    <p>Classic Tower of Hanoi game solution step guide built with JavaScript.</p>
+                    <a href="https://girish18-toh.netlify.app/" class="btn-sm">View Project</a>
+                </div>
+
+                <div class="card" data-name="Number Guessing">
+                    <img src="/Photos/number-guessing-game.png" alt="Number Guessing Game">
+                    <h3>Number Guessing Game</h3>
+                    <p>Test your luck with this interactive game.</p>
+                    <a href="https://girish-number-guessing-game.netlify.app/" class="btn-sm">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="grid"></div> -->
+
+        <!-- <div class="grid"></div> -->
+
+        <!-- <div class="grid"></div> -->
+
+    </section>
+
+    <!-- 📩 Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Let's connect and collaborate on amazing projects!</p>
+        <a href="girishsuthar1912@gmail.com" class="btn">Email Me</a>
+    </section>
+
+    <!-- 🔗 Footer -->
+    <footer>
+        <p>© 2025 Girish Suthar | Proudly Powered by Late-Night Coding & Caffeine!</p>
+        <div class="socials">
+            <a href="https://github.com/yourgithub"><i class="fa-brands fa-github-alt"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com/in/yourlinkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    
+    <script defer src="script.js"></script>
+</body>
+
+</html>
